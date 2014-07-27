@@ -1,0 +1,10 @@
+{
+  "name": "Internet Archive \"Save a Page\" Plug-In",
+  "description": "Right click to save a page to the Internet Archive",
+  "version": "0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["sample.js"]
+  },
+  "manifest_version": 2
+}
