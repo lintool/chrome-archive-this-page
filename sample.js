@@ -4,7 +4,7 @@ function genericOnClick(info, tab) {
   console.log("tab: " + JSON.stringify(tab));
 
   chrome.tabs.create({ 
-    url: "http://web.archive.org/save/" + info.pageUrl,
+    url: "https://web.archive.org/save/" + info.pageUrl,
   });
 }
 
